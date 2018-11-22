@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.banner {
+    background-image: url("img/banner.png");
+    background-color: #222;
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav {
+    background-color: #dd1021;
+    color: #ffc300;
+}
+
+.nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    list-style-type: none;
+}
+
+.nav ul li a {
+    display: block;
+    padding: 16px;
+    color: #ffc300;
+    font-size: 1.7rem;
+    text-decoration: none;
+}
+
+.nav ul li a:hover, .nav ul li a.active {
+    background-color: #c20f1e;
+}
+
+.section {
+    background-color: #fafafa;
+}
